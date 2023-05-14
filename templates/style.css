@@ -1,0 +1,102 @@
+/* CSS reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f7f7f7;
+}
+
+/* Form styles */
+#question-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    color: #777;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    font-size: 18px;
+    padding: 15px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 0;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.my-submit-button {
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 25px 50px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+    .my-submit-button:hover {
+        background-color: #0069d9;
+        transform: translateY(-2px);
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .my-submit-button:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px #333;
+    }
+
+/* Questions section styles */
+#questions {
+    margin-top: 50px;
+}
+
+.question {
+    margin-bottom: 30px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: #fff;
+}
+
+    .question label {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+        display: block;
+    }
