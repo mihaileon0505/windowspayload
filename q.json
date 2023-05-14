@@ -1,22 +1,22 @@
 [
   {
     "number": 1,
-    "question": "How old are you?"
+    "question": "Credeți că autoritățile locale din Târgu Jiu gestionează adecvat problema deșeurilor?"
   },
   {
     "number": 2,
-    "question": "What is your favorite color?"
+    "question": "Sunteți de acord cu măsurile luate de autorități pentru a reduce cantitatea de deșeuri generate de oraș?"
   },
   {
     "number": 3,
-    "question": "What is your favorite food?"
+    "question": "Credeți că publicul este suficient de informat cu privire la modul în care trebuie să gestioneze deșeurile?"
   },
   {
     "number": 4,
-    "question": "Where do you live?"
+    "question": "Sunteți mulțumit/mulțumită cu numărul de coșuri de gunoi?"
   },
   {
     "number": 5,
-    "question": "What is your favorite book?"
+    "question": "Credeți că Târgu Jiu ar trebui să adopte o politică de reducere a cantității de ambalaje din plastic utilizate în oraș?"
   }
 ]
